@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ORIGIN_WHITELIST = (
-  'http://localhost:3000','https://dashboard.heroku.com'
+  'http://localhost:3000','https://stormy-atoll-68957.herokuapp.com/'
 )
 
 ROOT_URLCONF = 'backend.urls'
